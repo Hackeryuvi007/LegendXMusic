@@ -216,7 +216,7 @@ async def add_playlist(client, CallbackQuery, _):
     try:
         title = (title[:30]).title()
         return await CallbackQuery.answer(
-            _["playlist_10"].format(title), show_alert=True
+            _["playlist_10"].format(CallbackQuery.from_user.mention)
         )
     except:
         return
