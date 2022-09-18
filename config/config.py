@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⌜ ʟᴇɢᴇɴᴅ ✘ ᴍᴜsɪᴄ ⌟")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ʟᴇɢᴇɴᴅ ✘ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5048100752").split())
@@ -38,14 +38,14 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/TeamLegend77/LegendXMusic",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/LegendXLatifaSupport")
+    "SUPPORT_CHANNEL", "https://t.me/BrokenHeartYKM")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LegendXLatifaSupport")
+    "SUPPORT_GROUP", "https://t.me/YaaroKiMehfil_YKM")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
